@@ -1,4 +1,4 @@
-# AgendaFlow API — Sistema de Agendamentos | Projeto 5/9
+# AgendaFlow API — Sistema de Agendamentos 
 
 API REST educacional em **Java 21+, Spring Boot 3.5.7, PostgreSQL, Spring Data JPA e Flyway** para cadastro de profissionais e marcação/cancelamento de horários.
 
@@ -48,6 +48,3 @@ O intervalo é semiaberto `[início, fim)`: um agendamento que termina às 14:00
 
 ## Limitações
 Este projeto **não tem autenticação nem autorização**, horários de funcionamento, feriados, fuso individual por profissional, notificações, reagendamento ou cobrança. Não exponha a API na internet sem segurança. Testes CI são unitários, não substituem testes de integração PostgreSQL/Testcontainers. Projeto de portfólio, não pronto para produção.
-
-## Para entrevistas
-Explique `@Transactional`, `@Lock(PESSIMISTIC_WRITE)`, consulta de sobreposição, `Instant` versus `LocalDateTime`, DTOs, Bean Validation, Flyway e cancelamento lógico.
